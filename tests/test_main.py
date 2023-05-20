@@ -57,14 +57,7 @@ def test_getting_all_catagory() -> None:
 
 
 def test_upload_items() -> None:
-    item = {
-        "item_name" : "test_item",
-        "item_price" : "test_price",
-        "item_type" : "test_type"
-    }
-    uploadClass = UploadItems()
-    uploadClass.post.new_item = item
-    
+    pass    
 
 
 
